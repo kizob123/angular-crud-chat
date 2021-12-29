@@ -1,0 +1,12 @@
+ {
+      "data":[
+        {"id": 1,
+      "fname": "obieze",
+      "lname": "iwuchukwu",
+      "email": "kizob123@gmail.com",
+      "loc": "lagos",
+      "country": "nigeria",
+      "age": 23}
+    ]
+}
+
