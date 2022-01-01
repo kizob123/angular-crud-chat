@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'route-cham';
+  check = false;
+  pos=''
+  constructor(){
+    if(!this.check)
+    this.pos='view-choice'
+  }
 }

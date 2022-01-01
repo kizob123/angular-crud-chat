@@ -14,11 +14,12 @@ import { Component, Injectable, OnInit } from '@angular/core';
 export class FormAppComponent{
 
 
-  data!:data;
+  data:data[];
   data2:any;
+  test?:string
   interested_person: FormGroup;
 
-  constructor(private dService:DataService){
+  constructor(private dService:DataService,){
       this.interested_person =new FormGroup({
       name: new FormControl(''),
       age : new FormControl(''),
@@ -30,6 +31,14 @@ export class FormAppComponent{
       })
 
   })
+  this.data=[{
+    fname:"name",
+    lname:"name",
+    email:"em",
+    loc:"l",
+    country:"ng"
+  }];
+  this.getText()
   }
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
@@ -51,7 +60,15 @@ get name():AbstractControl | null{
         `${k}: ${d.headers.get(k)}`
 
       )
-      this.data={...d.body!}
+      this.data=d.body!
+        console.log(this.data[0]);
+
+    })
+  }
+  getText(){
+    this.dService.getTextData().subscribe(t=>{
+      this.test=t
+
     })
   }
   updateData(){

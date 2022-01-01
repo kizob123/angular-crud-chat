@@ -1,0 +1,13 @@
+.entry{
+
+  width: 20%;
+  background-color:cornflowerblue;
+  position: relative;
+  left: 2%;
+}
+.view-choice{
+  display: flex;
+  align-items: stretch;
+  position: fixed;
+  left: 25%;
+}

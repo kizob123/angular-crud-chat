@@ -1,0 +1,3 @@
+The RxJS tap operator (as in "wiretap") lets the code inspect both success and error values passing through the observable without disturbing them.
+
+A download() method in the DownloaderComponent initiates the request by subscribing to the service method.

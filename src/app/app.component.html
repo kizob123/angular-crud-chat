@@ -1,1 +1,20 @@
-<app-form-app></app-form-app>
+<div [ngClass]="pos">
+<router-outlet></router-outlet>
+
+</div>
+
+<ng-container *ngIf="check; else view">
+  <app-login-entry ></app-login-entry>
+</ng-container>
+<ng-template #view>
+<app-entry ></app-entry>
+</ng-template>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+{
+  "ideas":[
+      {
+          "theme":"shoes",
+          "date":"2/3/2022",
+          "body":"new shoe design to help kids run safe",
+          "pix_url":"",
+          "tags":{"1":"health","2":"footwear","3":"kids"}
+      },
+      {
+        "theme":"foods",
+          "date":"6/6/2022",
+          "body":"new pots that warm foods every 6hrs",
+          "pix_url":"",
+          "tags":{"1":"health","2":"utensils","3":"food","4":"new design"}
+      }
+  ]
+}

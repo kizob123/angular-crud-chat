@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -10,6 +11,16 @@ import { PostIdeasComponent } from './post-ideas/post-ideas.component';
 import { NewHappensComponent } from './new-happens/new-happens.component';
 import { CustumValidatorDirective } from './custum-validator.directive';
 import { CustumValidatorFuncDirective } from './custum-validator-func.directive';
+import { FormLoginComponent } from './form-login/form-login.component';
+import { EntryComponent } from './entry/entry.component';
+import { IdeaShowsComponent } from './views/idea-shows/idea-shows.component';
+import { IdeaPostComponent } from './views/idea-post/idea-post.component';
+import { AboutComponent } from './profile/about/about.component';
+import { InterestsComponent } from './profile/interests/interests.component';
+import { PostsComponent } from './profile/posts/posts.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ViewHolderComponent } from './views/view-holder/view-holder.component';
+import { LoginEntryComponent } from './login-entry/login-entry.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +29,17 @@ import { CustumValidatorFuncDirective } from './custum-validator-func.directive'
     PostIdeasComponent,
     NewHappensComponent,
     CustumValidatorDirective,
-    CustumValidatorFuncDirective
+    CustumValidatorFuncDirective,
+    FormLoginComponent,
+    EntryComponent,
+    IdeaShowsComponent,
+    IdeaPostComponent,
+    AboutComponent,
+    InterestsComponent,
+    PostsComponent,
+    PageNotFoundComponent,
+    ViewHolderComponent,
+    LoginEntryComponent
   ],
   imports: [
     BrowserModule,

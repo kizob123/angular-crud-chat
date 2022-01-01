@@ -1,0 +1,19 @@
+.nav-login-reg{
+  display: flex;
+  align-items: stretch;
+  width: 100px;
+  flex: 40px;
+  bottom: 20%;
+}
+
+.reg-log{
+  padding:6px;
+  border-style: solid;
+  border-color:gray;
+
+  background-color: aliceblue;
+  width: 100px;
+}
+.reg-log a{
+  text-decoration: none;
+}

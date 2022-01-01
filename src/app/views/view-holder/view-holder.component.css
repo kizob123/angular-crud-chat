@@ -1,0 +1,6 @@
+.view-choice{
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  left: 30%;
+}
