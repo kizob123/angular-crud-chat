@@ -6,9 +6,13 @@
   <div >
     {{idea.body}}
   </div>
-
+  <div class="tag_holder" *ngFor="let tag of idea.tags">
+  <div id="tags">{{tag}}</div>
 
   </div>
+
+  </div>
+
 
 </div>
 

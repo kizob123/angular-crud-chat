@@ -12,7 +12,7 @@ import { retry, catchError } from 'rxjs/operators';
 })
 export class IdeaShowsComponent implements OnInit {
 pull='assets/ideas.json?=ideas';
-ideas?:Ideas[];
+ideas?:Ideas[]|any;
   constructor(private http:HttpClient) {
 
 
@@ -27,6 +27,8 @@ this.getData()
         //const n:Ideas[]= JSON.parse(o);
 
         this.ideas=JSON.parse(JSON.stringify(o)).ideas;
+        console.log(this.ideas[0].tags!);
+
 
 
 

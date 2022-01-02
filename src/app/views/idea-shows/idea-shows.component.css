@@ -15,3 +15,16 @@
   border-bottom-style:solid;
   border-bottom-color: rgb(134, 202, 247);
 }
+.tag_holder{
+display:block;
+
+
+}
+#tags{
+  font-size: x-small;
+  background-color: greenyellow;
+  margin-top: 5px;
+  float: left;
+  width: fit-content;
+  margin-left: 3px;
+}

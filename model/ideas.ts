@@ -5,5 +5,5 @@ export interface Ideas{
   date?: Date;
   body?:string;
   pix_url?:string;
-  tags?:{};
+  tags?:[];
 }
