@@ -1,0 +1,17 @@
+.bod{
+
+  border-left-style: solid;
+  border-color: brown;
+}
+.theme{
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom-style: double;
+  border-bottom-color: rgb(175, 218, 247);
+}
+.idea{
+  margin-top: 2px;
+  margin-left: 5px;
+  border-bottom-style:solid;
+  border-bottom-color: rgb(134, 202, 247);
+}
