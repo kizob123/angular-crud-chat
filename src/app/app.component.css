@@ -11,3 +11,20 @@
   position: fixed;
   left: 25%;
 }
+#tops{
+  top: 0%;
+  width: 100%;
+  height: 10%;
+
+}
+#downs{
+  top: 0%;
+  width: 100%;
+  height: 50%;
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+

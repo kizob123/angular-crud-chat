@@ -1,0 +1,13 @@
+#post-idea{
+  width: 300%;
+  height: 200%;
+  border-color: rgb(212, 245, 179);
+  align-content: flex-start;
+}
+.post{
+  margin-top: 4px;
+}
+#tags{
+  width: fit-content;
+  width: 160%;
+}

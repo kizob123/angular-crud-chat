@@ -21,6 +21,7 @@ import { PostsComponent } from './profile/posts/posts.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ViewHolderComponent } from './views/view-holder/view-holder.component';
 import { LoginEntryComponent } from './login-entry/login-entry.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { LoginEntryComponent } from './login-entry/login-entry.component';
     PostsComponent,
     PageNotFoundComponent,
     ViewHolderComponent,
-    LoginEntryComponent
+    LoginEntryComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,14 @@
+#unlogged{
+  background-color:rgb(44, 50, 54) ;
+  color: azure;
+}
+div#contact{
+  justify-content:right
+}
+div#app-name{
+  justify-content: left;
+}
+.block{
+display: flex;
+align-items: stretch;
+}
